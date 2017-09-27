@@ -70,3 +70,6 @@ local_settings.py
 
 #Staticfiles
 /staticfiles/bower_components/
+staticfiles/bower_components/
+/staticfiles/static/CACHE
+staticfiles/static/CACHE

@@ -1,0 +1,55 @@
+.bg-light {
+  background-color: #26a69a !important; }
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2.25rem;
+  line-height: inherit;
+  white-space: nowrap; }
+
+.thead-inverse th {
+  color: #fff;
+  background-color: #26a69a; }
+
+a:not([href]):not([tabindex]) {
+  color: #fff;
+  font-family: inherit; }
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+#nav {
+  height: 100px;
+  background: black;
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s; }
+
+#logo {
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  transition: all ease .5s; }
+
+#hero {
+  height: 500px;
+  width: 100%;
+  background: url("http://community.lovenature.com/wp-content/uploads/sites/4/2016/08/jimi-hendrix.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+#nav.shrink {
+  height: 70px;
+  transition: all ease .5s; }
+
+#nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s; }
