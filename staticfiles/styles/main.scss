@@ -68,8 +68,13 @@ width: auto;
 transition: all ease .5s;
 }
 
-#space{
-  position: absolute;
-  bottom: -108px;
-  right: 120px;
+.content-wrapper, .right-side {
+    min-height: 100%;
+    background-color: #ecf0f5;
+    z-index: 800;
+}
+
+.jumbotron {
+    background-color: #fff;
+    text-align: center;
 }
