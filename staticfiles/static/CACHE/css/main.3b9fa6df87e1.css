@@ -1,0 +1,27 @@
+.bg-light {
+  background-color: #26a69a !important; }
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2.25rem;
+  line-height: inherit;
+  white-space: nowrap; }
+
+body {
+  background: #eee; }
+  body > * {
+    max-width: 1168px;
+    margin-left: auto;
+    margin-right: auto; }
+    body > *:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  body main > section {
+    width: 98.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%; }

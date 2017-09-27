@@ -1,0 +1,16 @@
+.bg-light {
+  background-color: #26a69a !important; }
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2.25rem;
+  line-height: inherit;
+  white-space: nowrap; }
+
+.input {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff; }
