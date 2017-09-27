@@ -1,5 +1,9 @@
 from django.apps import AppConfig
+from settings.base import BASE_DIR
 
 
-class CoreConfig(AppConfig):
+class DefaultApp(AppConfig):
+    label = 'core'
     name = 'core'
+    path = BASE_DIR.child('core')
+    verbose_name = 'Core Application'
