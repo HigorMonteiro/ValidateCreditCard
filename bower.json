@@ -1,0 +1,15 @@
+{
+  "name": "Validadte Credit Card",
+  "authors": [
+    "Higor Vinicius <higor.tecinfor@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "COMMERCIAL",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^4.0.0",
+  }
+}
