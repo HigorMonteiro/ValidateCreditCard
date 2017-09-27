@@ -66,3 +66,7 @@ db.sqlite3
 local_settings.py
 *.ini
 .env/
+
+
+#Staticfiles
+/staticfiles/bower_components/
