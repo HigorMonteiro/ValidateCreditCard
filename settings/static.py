@@ -4,12 +4,12 @@ from .base import BASE_DIR, DEBUG
 
 
 # URLs to serve media and static files
-STATIC_URL = config('STATIC_URL', default='/staticfiles/')
+STATIC_URL = config('STATIC_URL', default='/static/')
 MEDIA_URL = config('MEDIA_URL', default='/media/')
 
 # Directories to save media and compiled static files
-MEDIA_ROOT = BASE_DIR.child('staticfiles', 'media')
-STATIC_ROOT = BASE_DIR.child('staticfiles', 'static')
+MEDIA_ROOT = BASE_DIR.child('_public', 'media')
+STATIC_ROOT = BASE_DIR.child('_public', 'static')
 
 # Directories to find static files
 STATICFILES_DIRS = [
