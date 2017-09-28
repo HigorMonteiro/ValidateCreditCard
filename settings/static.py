@@ -8,7 +8,7 @@ STATIC_URL = config('STATIC_URL', default='/static/')
 MEDIA_URL = config('MEDIA_URL', default='/media/')
 
 # Directories to save media and compiled static files
-MEDIA_ROOT = BASE_DIR.child('staticfiles', 'media')
+MEDIA_ROOT = BASE_DIR.child('static', 'media')
 STATIC_ROOT = BASE_DIR.child('staticfiles', 'static')
 
 # Directories to find static files
@@ -67,3 +67,6 @@ TEMPLATES = [
         },
     },
 ]
+
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
