@@ -2,6 +2,7 @@ dj-database-url==0.4.2
 Django==1.11.5
 django-appconf==1.0.2
 django-compressor==2.2
+django-widget-tweaks==1.4.1
 libsass==0.13.2
 psycopg2==2.7.3.1
 py==1.4.34
@@ -14,4 +15,3 @@ rjsmin==1.0.12
 six==1.11.0
 Unipath==1.1
 whitenoise==3.3.1
-gunicorn==19.4.5
