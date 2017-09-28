@@ -18,6 +18,8 @@ Run the following commands on your terminal:
 ```bash
 $ git clone git@github.com:HigorMonteiro/ValidateCreditCard.git
 $ cd ValidateCreditCard
+$ virtualenv .env -p /usr/bin/python3.5
+$ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ python manage.py migrate
 ```
