@@ -9,7 +9,7 @@ Web application to validate credit card numbers.
 
 - Linux/MacOS
 - Git
-- Python 3.5.2
+- Python 3.6.2
 
 ### Instalation
 
