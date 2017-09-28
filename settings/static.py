@@ -4,7 +4,7 @@ from .base import BASE_DIR, DEBUG
 
 
 # URLs to serve media and static files
-STATIC_URL = config('STATIC_URL', default='/staticfiles/static/')
+STATIC_URL = config('STATIC_URL', default='/staticfiles/')
 MEDIA_URL = config('MEDIA_URL', default='/media/')
 
 # Directories to save media and compiled static files
