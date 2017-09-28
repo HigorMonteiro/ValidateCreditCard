@@ -15,6 +15,7 @@ STATIC_ROOT = BASE_DIR.child('_public', 'static')
 STATICFILES_DIRS = [
     BASE_DIR.child('staticfiles'),
     BASE_DIR.child('staticfiles', 'bower_components'),
+    BASE_DIR.child('_public', 'static'),
 ]
 
 # Static files finding engines
