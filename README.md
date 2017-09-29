@@ -39,13 +39,6 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-### Tests
-
-To run the tests:
-
-```bash
-python manage.py test or make test
-```
 ### Makefile
 
 To run the make:
@@ -54,6 +47,5 @@ To run the make:
 $ make setup
 $ make start
 $ make bower
-$ make test
 
 ```

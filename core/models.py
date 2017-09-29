@@ -36,7 +36,6 @@ class CreditCardNumber(models.Model):
     def __str__(self):
         return '{} - {}'.format(self.number, self.is_valid)
 
-    @property
     def is_valid_number(self):
         if self.is_valid:
             return 'Valid'
