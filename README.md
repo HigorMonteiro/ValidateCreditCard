@@ -22,7 +22,7 @@ Run the following commands on your terminal:
 ```bash
 $ git clone git@github.com:HigorMonteiro/ValidateCreditCard.git
 $ cd ValidateCreditCard
-$ virtualenv .env -p /usr/bin/python3.5
+$ virtualenv .env -p /usr/bin/python3.6
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ python manage.py migrate
@@ -34,10 +34,7 @@ and then...
 
 ```bash
 $ ./manage.py runserver
-Performing system checks...
-
-System check identified no issues (0 silenced).
-March 06, 2017 - 13:10:27
+...
 Django version 1.11.5, using settings 'settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.

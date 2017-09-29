@@ -6,8 +6,5 @@ setup:
 start:
 	./manage.py runserver
 
-test:
-	./manage.py test
-
 bower:
 	bower install --allow-root
